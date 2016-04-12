@@ -1,0 +1,485 @@
+header .nav {
+  background-color: #CB3439; }
+  header .nav h1 {
+    font-family: "Monoton", cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.250em;
+    padding: .5em;
+    margin-top: 0em; }
+
+.best_of {
+  box-sizing: border-box;
+  overflow: auto;
+  margin-bottom: 2em; }
+  .best_of h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin: 1em; }
+  .best_of .movie_best {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 2em; }
+    .best_of .movie_best .poster {
+      position: relative;
+      margin: 0 auto; }
+      .best_of .movie_best .poster a img {
+        height: 18.750em;
+        width: 12.500em;
+        background-size: cover; }
+    .best_of .movie_best p {
+      font-family: "Ubuntu", sans-serif;
+      line-height: 0.5em;
+      margin: 1em; }
+    .best_of .movie_best .vote_button p {
+      background-color: #CB3439;
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border: 3px solid #ffffff; }
+    .best_of .movie_best .vote_button p:hover {
+      border: 3px solid #292828;
+      cursor: pointer; }
+
+.action_adventure {
+  background-color: #CCCCCB;
+  overflow: auto;
+  margin: 0 auto;
+  margin-bottom: 2em; }
+  .action_adventure h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin: 1em; }
+  .action_adventure .movie_action {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2em; }
+    .action_adventure .movie_action .poster {
+      position: relative;
+      margin: 0 auto; }
+      .action_adventure .movie_action .poster a img {
+        height: 18.750em;
+        width: 12.500em;
+        background-size: cover; }
+    .action_adventure .movie_action p {
+      font-family: "Ubuntu", sans-serif;
+      line-height: 0.5em;
+      margin: 1em; }
+    .action_adventure .movie_action .vote_button p {
+      background-color: #CB3439;
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border: 3px solid #CCCCCB; }
+    .action_adventure .movie_action .vote_button p:hover {
+      border: 3px solid #292828;
+      cursor: pointer; }
+
+.comedy {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .comedy h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin: 1em; }
+  .comedy .movie_comedy {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2em; }
+    .comedy .movie_comedy .poster {
+      position: relative;
+      margin: 0 auto; }
+      .comedy .movie_comedy .poster a img {
+        height: 18.750em;
+        width: 12.500em;
+        background-size: cover; }
+    .comedy .movie_comedy p {
+      font-family: "Ubuntu", sans-serif;
+      line-height: 0.5em;
+      margin: 1em; }
+    .comedy .movie_comedy .vote_button p {
+      background-color: #CB3439;
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border: 3px solid #ffffff; }
+    .comedy .movie_comedy .vote_button p:hover {
+      border: 3px solid #292828;
+      cursor: pointer; }
+
+.scifi {
+  background-color: #CCCCCB;
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .scifi h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin: 1em; }
+  .scifi .movie_scifi {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2em; }
+    .scifi .movie_scifi .poster {
+      position: relative;
+      margin: 0 auto; }
+      .scifi .movie_scifi .poster a img {
+        height: 18.750em;
+        width: 12.500em;
+        background-size: cover; }
+    .scifi .movie_scifi p {
+      font-family: "Ubuntu", sans-serif;
+      line-height: 0.5em;
+      margin: 1em; }
+    .scifi .movie_scifi .vote_button p {
+      background-color: #CB3439;
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border: 3px solid #CCCCCB; }
+    .scifi .movie_scifi .vote_button p:hover {
+      border: 3px solid #292828;
+      cursor: pointer; }
+
+.family {
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .family h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin: 1em; }
+  .family .movie_family {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2em; }
+    .family .movie_family .poster {
+      position: relative;
+      margin: 0 auto; }
+      .family .movie_family .poster a img {
+        height: 18.750em;
+        width: 12.500em;
+        background-size: cover; }
+    .family .movie_family p {
+      font-family: "Ubuntu", sans-serif;
+      line-height: 0.5em;
+      margin: 1em; }
+    .family .movie_family .vote_button p {
+      background-color: #CB3439;
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border: 3px solid #ffffff; }
+    .family .movie_family .vote_button p:hover {
+      border: 3px solid #292828;
+      cursor: pointer; }
+
+footer {
+  background-color: #CB3439;
+  padding: 3em;
+  margin: 0; }
+
+@media (min-width: 750px) {
+  .best_of {
+    overflow: hidden;
+    box-sizing: border-box; }
+    .best_of h2 {
+      font-family: "Ubuntu", sans-serif;
+      margin: 1em; }
+    .best_of .movie_best {
+      margin: 1.111111%;
+      display: inline-block;
+      width: 22%;
+      text-align: center;
+      overflow: hidden; }
+      .best_of .movie_best .poster {
+        position: relative;
+        margin: 0 auto;
+        height: 18.750em;
+        width: 12.500em; }
+        .best_of .movie_best .poster a img {
+          background-size: cover; }
+      .best_of .movie_best p {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 0.5em;
+        margin: 1em; }
+      .best_of .movie_best .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #ffffff; }
+      .best_of .movie_best .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .action_adventure {
+    background-color: #CCCCCB;
+    overflow: hidden; }
+    .action_adventure .movie_action {
+      margin: 0 auto;
+      float: left;
+      width: 33%;
+      text-align: center;
+      margin-bottom: 2em; }
+      .action_adventure .movie_action .poster {
+        position: relative;
+        margin: 0 auto; }
+        .action_adventure .movie_action .poster a img {
+          height: 18.750em;
+          width: 12.500em;
+          background-size: cover; }
+      .action_adventure .movie_action p {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 0.5em;
+        margin: 1em; }
+      .action_adventure .movie_action .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #CCCCCB; }
+      .action_adventure .movie_action .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .comedy {
+    overflow: hidden; }
+    .comedy .movie_comedy {
+      margin: 0 auto;
+      float: left;
+      width: 33%;
+      text-align: center;
+      margin-bottom: 2em; }
+      .comedy .movie_comedy .poster {
+        position: relative;
+        margin: 0 auto; }
+        .comedy .movie_comedy .poster a img {
+          height: 18.750em;
+          width: 12.500em;
+          background-size: cover; }
+      .comedy .movie_comedy p {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 0.5em;
+        margin: 1em; }
+      .comedy .movie_comedy .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #ffffff; }
+      .comedy .movie_comedy .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .scifi {
+    background-color: #CCCCCB;
+    overflow: hidden; }
+    .scifi .movie_scifi {
+      margin: 0 auto;
+      float: left;
+      width: 33%;
+      text-align: center;
+      margin-bottom: 2em; }
+      .scifi .movie_scifi .poster {
+        position: relative;
+        margin: 0 auto; }
+        .scifi .movie_scifi .poster a img {
+          height: 18.750em;
+          width: 12.500em;
+          background-size: cover; }
+      .scifi .movie_scifi p {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 0.5em;
+        margin: 1em; }
+      .scifi .movie_scifi .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #CCCCCB; }
+      .scifi .movie_scifi .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .family {
+    overflow: hidden; }
+    .family .movie_family {
+      margin: 0 auto;
+      float: left;
+      width: 33%;
+      text-align: center;
+      margin-bottom: 2em; }
+      .family .movie_family .poster {
+        position: relative;
+        margin: 0 auto; }
+        .family .movie_family .poster a img {
+          height: 18.750em;
+          width: 12.500em;
+          background-size: cover; }
+      .family .movie_family p {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 0.5em;
+        margin: 1em; }
+      .family .movie_family .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #ffffff; }
+      .family .movie_family .vote_button p:hover {
+        border: 3px solid #292828; } }
+@media (min-width: 1100px) {
+  .action_adventure {
+    background-color: #CCCCCB;
+    overflow: hidden; }
+    .action_adventure .movie_action {
+      margin: 0 auto;
+      float: left;
+      width: 16%;
+      text-align: center;
+      height: 428px;
+      box-sizing: border-box; }
+      .action_adventure .movie_action .poster {
+        position: relative;
+        margin: 0 auto; }
+        .action_adventure .movie_action .poster a img {
+          height: 15.750em;
+          width: 10.00em;
+          background-size: cover; }
+      .action_adventure .movie_action p {
+        font-family: "Ubuntu", sans-serif; }
+      .action_adventure .movie_action .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #CCCCCB; }
+      .action_adventure .movie_action .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .comedy {
+    overflow: hidden; }
+    .comedy .movie_comedy {
+      margin: 0 auto;
+      float: left;
+      width: 16%;
+      text-align: center;
+      height: 428px;
+      box-sizing: border-box; }
+      .comedy .movie_comedy .poster {
+        position: relative;
+        margin: 0 auto; }
+        .comedy .movie_comedy .poster a img {
+          height: 15.750em;
+          width: 10.00em;
+          background-size: cover; }
+      .comedy .movie_comedy p {
+        font-family: "Ubuntu", sans-serif; }
+      .comedy .movie_comedy .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #ffffff; }
+      .comedy .movie_comedy .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .scifi {
+    background-color: #CCCCCB;
+    overflow: hidden; }
+    .scifi .movie_scifi {
+      margin: 0 auto;
+      float: left;
+      width: 16%;
+      text-align: center;
+      height: 428px;
+      box-sizing: border-box; }
+      .scifi .movie_scifi .poster {
+        position: relative;
+        margin: 0 auto; }
+        .scifi .movie_scifi .poster a img {
+          height: 15.750em;
+          width: 10.00em;
+          background-size: cover; }
+      .scifi .movie_scifi p {
+        font-family: "Ubuntu", sans-serif; }
+      .scifi .movie_scifi .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #CCCCCB; }
+      .scifi .movie_scifi .vote_button p:hover {
+        border: 3px solid #292828; }
+
+  .family {
+    overflow: hidden; }
+    .family .movie_family {
+      margin: 0 auto;
+      float: left;
+      width: 16%;
+      text-align: center;
+      height: 428px;
+      box-sizing: border-box; }
+      .family .movie_family .poster {
+        position: relative;
+        margin: 0 auto; }
+        .family .movie_family .poster a img {
+          height: 15.750em;
+          width: 10.00em;
+          background-size: cover; }
+      .family .movie_family p {
+        font-family: "Ubuntu", sans-serif; }
+      .family .movie_family .vote_button p {
+        background-color: #CB3439;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: 3px solid #ffffff; }
+      .family .movie_family .vote_button p:hover {
+        border: 3px solid #292828; } }
+
+/*# sourceMappingURL=main.css.map */
