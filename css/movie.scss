@@ -1,16 +1,8 @@
-$movie_main_theme: #CB3439;
-$movie_body_background1:#F5F5F5;
-$movie_body_background2: #CCCCCB;
-$novie_font_color:#282929;
-$movie_font_hover:#2274A5;
-$movie_button_text:#ffffff;
-$movie_button_border:#292828;
-$movie_header_font:'Monoton', cursive;
-$movie_body_font: 'Ubuntu', sans-serif;
+
 
 
 //-----------------------------------header/navbar styling-------------------------------//
-header{
+
 
 	.nav{
 		background-color: $movie_main_theme;
@@ -28,7 +20,7 @@ header{
 			}
 	}
 
-}
+
 
 
 //---------------------------------------------------BEST OF SECTION------------------------------//
@@ -921,6 +913,7 @@ footer{
 		}
 
 		.vote_button{
+
 			
 			
 			
